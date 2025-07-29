@@ -121,17 +121,19 @@ document.addEventListener('DOMContentLoaded', function() {
               <img src="assets/image.png" alt="Découverte 1" class="discover-img" />
               <div class="discover-quote">
                 <p>
-                  La créativité, c'est aussi savoir sortir du cadre professionnel pour explorer de nouveaux horizons. Chaque passion nourrit l'inspiration et l'envie d'aller plus loin.
+                  En dehors du travail, je m’investis pleinement dans mes passions comme la musique et la création de contenus.<br> <br>
+        Je partage régulièrement sur mon compte TikTok, un espace où je peux laisser libre cours à ma créativité, échanger avec une communauté et explorer de nouveaux formats.<br> <br>
+        Ces activités nourrissent mon inspiration et contribuent à mon équilibre personnel et professionnel.
                 </p>
               </div>
             </div>
             <div class="discover-flex-item reverse">
               <div class="discover-quote">
                 <p>
-                  Savoir s'entourer de moments simples, c'est aussi se donner la chance de se ressourcer et de revenir plus fort dans ses projets.
+                  La musique fait partie de mon quotidien, que ce soit en fond pendant que je travaille, pour me motiver ou juste pour le plaisir, elle m'accompagne partout. C’est une vraie passion : j’adore découvrir de nouveaux sons, partager mes coups de cœur et parfois même créer moi-même.
                 </p>
               </div>
-              <img src="assets/photo.png" alt="Découverte 2" class="discover-img" />
+              <img src="assets/cadre.png" alt="Découverte 2" class="discover-img" />
             </div>
           </div>
         `;
