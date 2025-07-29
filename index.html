@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Clément Alex</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Inter:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+</head>
+<body>
+  <!--navbar-->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Accueil</a></li>
+      <li><a href="#projects">Mes projets</a></li>
+      <li><a href="#personal">Ma vie perso</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- accueil -->
+  <section id="home" class="home-section">
+    <div class="home-content">
+      <img src="assets/photo.jpg" alt="Photo de moi" class="home-img" data-aos="zoom-in"/>
+      <div class="home-text" data-aos="fade-left">
+        <p>Depuis quelques années, je me pose des questions sur tout ce que l’on voit sur Internet : les sites web, les réseaux sociaux, les plateformes… Cette curiosité m’a naturellement poussé à vouloir comprendre l’envers du décor.
+
+            C’est ainsi que j’ai décidé de me lancer. Après avoir passé des heures à étudier, tester, corriger et répéter des lignes de code, j’ai découvert une satisfaction unique dans chaque réussite. Ce sentiment est vite devenu bien plus qu’un simple intérêt : il a fait naître en moi une véritable passion pour le développement et l’informatique.
+            
+            À travers ce portfolio, je vous partage ce que j’apprends, ce que je crée, et ce que j’essaye de transmettre à travers mes projets.
+            
+            Je suis Clément Alex. Bienvenue dans mon univers.</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="separator">
+
+  <!-- section projets, carroussel -->
+  <section id="projects" class="projects-section">
+    <h2 data-aos="fade-up">Mes Projets</h2>
+    <div class="project" data-aos="fade-up">
+      <div class="overlap-grid">
+        <!-- images cascade -->
+        <img src="assets/projet 1.1.PNG" alt="Projet 1 image 1" class="project-img project-img-animated img1" data-text="Quiz interactif automatisé avec TikTok Live. Fonctionnement : Une question, préalablement définie via l'interface admin, est affichée dans un overlay permettant aux utilisateurs de la voir en direct. Les participants répondent dans le chat, et la première personne à donner la bonne réponse gagne 1 point. Elle est félicitée par une synthèse vocale, et son pseudo ainsi que sa photo de profil sont affichés à l'écran."/>
+        <img src="assets/projet 1.2.PNG" alt="Projet 1 image 2" class="project-img project-img-animated img2" data-text="Voici l'interface que les utilisateurs voient en direct, avec le classement général affichant les 5 premiers, ainsi que les questions et le compte à rebours." />
+        <img src="assets/projet 1.3.PNG" alt="Projet 1 image 3" class="project-img project-img-animated img3" data-text="Lorsque personne ne trouve la bonne réponse" />
+        <img src="assets/projet 1.4.PNG" alt="Projet 1 image 4" class="project-img project-img-animated img4" data-text="Côté console, voici l’affichage actuel. Axes d’amélioration : Optimiser l’affichage visuel pour le rendre plus clair et professionnel. Améliorer les performances : en cas de trop grand nombre d’utilisateurs, les délais peuvent devenir trop importants. Maximiser l'efficacité du traitement et des rendus graphiques." />
+        <div class="img-popup"></div>
+      </div>
+      <div class="project-info">
+        <h3>Création d'un script tiktok-live</h3>
+        <p class="project-desc"> Quizz interactif automatiser avec tiktok-live</p>
+        <button class="next-img-btn">Suivant</button>
+        <div class="carousel-languages">
+          <div class="carousel-track">
+              <!-- carroussel -->
+            <img src="assets/html.png" alt="HTML" class="lang-icon" />
+            <img src="assets/css.png" alt="CSS" class="lang-icon" />
+            <img src="assets/js.png" alt="JavaScript" class="lang-icon" />
+            <img src="assets/sql.png" alt="sql" class="lang-icon" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="project" data-aos="fade-up" data-aos-delay="100">
+      <div class="overlap-grid">
+        <!-- images cascade -->
+        <img src="assets/projet 2.1.PNG" alt="Projet 2 image 1" class="project-img project-img-animated img1" data-text="Réalisation d’un site maquette afin de découvrir et perfectionner l’usage de Tailwind CSS, Vite et de React, 3 frameworks puissants, polyvalents et particulièrement efficaces. La partie front-end est développée en HTML, CSS et JavaScript. " />
+        <img src="assets/projet 2.2.PNG" alt="Projet 2 image 2" class="project-img project-img-animated img2" data-text="Une partie back-end a également été développée en PHP, en utilisant Laragon comme environnement de développement local. Le module Mailpit intégré a été utilisé pour gérer la partie contact et permettre la réception des e-mails." />
+        <img src="assets/projet 2.3.PNG" alt="Projet 2 image 3" class="project-img project-img-animated img3" data-text="J’ai utilisé React pour sa capacité à créer des interfaces utilisateur modernes, dynamiques et facilement maintenables, également pour l'optimisation des performances. J’ai opté également pour Vite en tant qu’outil de build et serveur de développement pour sa rapidité exceptionnelle et sa simplicité de configuration." />
+        <img src="assets/projet 2.4.PNG" alt="Projet 2 image 4" class="project-img project-img-animated img4" data-text="J’ai choisi Tailwind CSS car il permet de créer rapidement un design propre et moderne. On peut ajouter directement des classes dans le code pour changer les couleurs, les tailles, les marges, etc., sans écrire de long fichier CSS. Il est aussi facile à personnaliser, s’adapte bien aux écrans mobiles et ordinateurs, et garde le site léger et rapide. C’est un outil pratique pour garder un style cohérent sans se compliquer." />
+        <div class="img-popup"></div>
+      </div>
+      <div class="project-info">
+        <h3>Création d'un site web maquette</h3>
+        <p class="project-desc">Création d'un site web maquette.</p>
+        <button class="next-img-btn">Suivant</button>
+        <div class="carousel-languages">
+          <div class="carousel-track">
+            <!-- carroussel -->
+            <img src="assets/html.png" alt="html" class="lang-icon" />
+            <img src="assets/css.png" alt="css" class="lang-icon" />
+            <img src="assets/js.png" alt="js" class="lang-icon" />
+            <img src="assets/react.png" alt="react" class="lang-icon" />
+            <img src="assets/tailwind.png" alt="tailwind" class="lang-icon" />
+            <img src="assets/php.png" alt="php" class="lang-icon" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="project project-images" data-aos="fade-up" data-aos-delay="200">
+      <div class="overlap-grid">
+        <!-- images cascade -->
+        <img src="assets/projet3.1.PNG" alt="Projet 3 image 1" class="project-img project-img-animated img1" data-text="Création d’un portfolio avec des langages simples pour perfectionner mes compétences." />
+        <img src="assets/projet 3.2.PNG" alt="Projet 3 image 2" class="project-img project-img-animated img2" data-text="Tentative d'expérimentation avec le CSS, notamment avec des images en cascade et un carrousel." />
+        <img src="assets/projet3.3.PNG" alt="Projet 3 image 3" class="project-img project-img-animated img3" data-text="Réalisation d'une page de contact avec PHP et le serveur Laragon, en utilisant le service mailto." />
+        <div class="img-popup"></div>
+      </div>
+      <div class="project-info">
+        <h3>Creation d'un portfolio</h3>
+        <p class="project-desc">Description du projet 3.</p>
+        <button class="next-img-btn">Suivant</button>
+        <div class="carousel-languages">
+          <div class="carousel-track">
+            <!-- carroussel -->
+            <img src="assets/html.png " alt="html" class="lang-icon" />
+            <img src="assets/css.png" alt="css" class="lang-icon" />
+            <img src="assets/js.png" alt="js" class="lang-icon" />
+            </div>
+        </div>
+      </div>
+    </div>
+    <p class="projects-end" data-aos="fade-in" data-aos-delay="300">D'autres projets sont en cours, notamment autour du back-end avec un approfondissement en PHP, ainsi que quelques projets orientés vers la cybersécurité</p>
+  </section>
+
+  <!-- Ma vie personnel -->
+  <section id="personal" class="personal-section">
+    <h2 data-aos="fade-up">La vie ce n'est pas que le travail</h2>
+    <div class="personal-quote" data-aos="fade-up" data-aos-delay="100">
+      <p>
+        Travailler est essentiel, mais l’épanouissement passe aussi par la découverte, la création et le partage en dehors du cadre professionnel.<br><br>
+        Ces moments « hors pro » nourrissent la créativité, renforcent la motivation et apportent un équilibre précieux à la vie.<br><br>
+        Prendre le temps de s’investir dans ses passions, d’explorer de nouveaux horizons ou simplement de profiter de l’instant, c’est aussi progresser et s’enrichir, tant sur le plan personnel que professionnel.
+      </p>
+    </div>
+    <div class="discover-block" data-aos="fade-up" data-aos-delay="200">
+      <p class="discover-text">Envie d'en découvrir plus ? Voici ce que je fais sur mon temps libre</p>
+      <button class="discover-btn" id="show-images-btn">Découvrir</button>
+    </div>
+    <div id="discover-images-container"></div>
+  </section>
+
+  <!-- Contact -->
+  <div class="contact-btn-wrapper">
+    <a href="contact.html" class="contact-btn" data-aos="fade-up">Me contacter</a>
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  <!-- popup, modal d'image zoomée -->
+  <div id="img-modal" class="img-modal" style="display:none;">
+    <div class="img-modal-content">
+      <span class="img-modal-close">&times;</span>
+      <img id="img-modal-img" src="" alt="Image zoomée" />
+      <div class="img-modal-desc-container">
+        <div id="img-modal-desc" class="img-modal-desc"></div>
+        <button id="img-modal-next-btn" class="img-modal-next-btn">Suivant</button>
+      </div>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
